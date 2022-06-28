@@ -1,0 +1,55 @@
+.badge {
+  position: absolute;
+  top: 1%;
+  left: 2%;
+}
+.btn-outline-danger {
+  padding: 0 5px;
+  height: 30px;
+}
+
+
+@media screen and (max-width: 572px) {
+  .container{
+   margin-bottom: 90px;
+  }
+  /* Fiyat ve buton  */
+  .fiyat-butonlar {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 0 0 3px black; 
+    z-index: 1
+  }
+  .fiyat p {
+    font-size: 17px !important;
+  }
+
+  /* İndirim butonu */
+  .btn-outline-danger {
+    margin-top: 6px !important;
+    margin-right: 10px;
+    height: 40px;
+    background-color: red;
+    color: white;
+  }
+
+  /* Sponsorlu ürün */
+  .badge{
+    position: absolute;
+    top: 80%;
+  }
+
+  /* Bilgiler */
+  .liste {
+    display: flex;
+    flex-direction: row;
+    width: 250%;
+    height: 50px;
+    font-size: 15px;
+  }
+}
